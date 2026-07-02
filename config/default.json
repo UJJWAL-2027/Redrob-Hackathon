@@ -1,0 +1,9 @@
+{
+  "top_k": 100,
+  "stage1_keep": 20000,
+  "semantic_keep": 4000,
+  "current_year": 2026,
+  "current_month": 6,
+  "hard_filter_min_years": 3.0,
+  "hard_filter_max_years": 15.0
+}

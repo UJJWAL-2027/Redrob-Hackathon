@@ -1,0 +1,53 @@
+# Fill these placeholders before portal submission.
+team_name: "your-team-name-here"
+
+primary_contact:
+  name: "Full Name"
+  email: "primary@example.com"
+  phone: "+91-XXXXXXXXXX"
+
+team_members:
+  - name: "Full Name"
+    email: "primary@example.com"
+    role: "Lead"
+
+github_repo: "https://github.com/YOUR_USERNAME/YOUR_REPO"
+sandbox_link: "https://huggingface.co/spaces/YOUR_USERNAME/redrob-ranker"
+reproduce_command: "python rank.py --candidates ./candidates.jsonl --out ./submission.csv"
+
+compute:
+  platform: "Local CPU machine"
+  cpu_cores: 8
+  ram_gb: 16
+  python_version: "3.11"
+  os: "macOS"
+  uses_gpu_for_inference: false
+  has_network_during_ranking: false
+  pre_computation_required: false
+  pre_computation_time_minutes: 0
+
+ai_tools_used:
+  - "ChatGPT"
+
+ai_usage_summary: |
+  Used AI assistance for architecture and implementation. No hosted model calls
+  are made by the ranking pipeline, and candidate ranking runs fully offline.
+
+methodology_summary: |
+  Cascading offline ranker that first performs lightweight schema and hard-fit
+  filtering, then extracts evidence from career descriptions, skills, summaries,
+  and Redrob behavioral signals. Capabilities are grouped into retrieval,
+  vector infrastructure, ranking evaluation, production ML, Python backend, LLM
+  systems, product engineering, and data infrastructure. Fraud and plausibility
+  checks penalize unsupported AI claims, impossible timelines, technology
+  duration anomalies, consulting-only careers, and research-only profiles. A
+  lightweight local TF-IDF semantic reranker is applied only to the shortlisted
+  candidates. Final ordering combines integrity, capability match, production
+  evidence, retrieval/ranking depth, behavioral availability, and location fit.
+
+declarations:
+  read_submission_spec: true
+  code_is_original_work: true
+  no_collusion: true
+  honeypot_check_done: true
+  reproduction_tested: false

@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+outputs/*.json
+outputs/*.jsonl
+outputs/*.csv
+!outputs/.gitkeep
+.DS_Store
