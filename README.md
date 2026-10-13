@@ -1,4 +1,4 @@
-# Redrob Intelligent Candidate Discovery & Ranking System
+# Redrob Intelligent Candidate Discovery & Ranking System 2026
 
 An offline, explainable, adversarially robust candidate-ranking system built for the **Redrob Intelligent Candidate Discovery & Ranking Challenge**.
 
