@@ -708,7 +708,7 @@ git diff --cached
 
 Recommended public repository contents are the source code, tests, configuration examples, metadata template, and this README—not the private candidate dataset.
 
-🙌 Acknowledgments
+🙌 Acknowledgments:
 
 Built as part of the Redrob Intelligent Candidate Discovery & Ranking Challenge, this project explores how explainable algorithms can improve candidate discovery while resisting keyword stuffing, unsupported claims, and misleading profiles.
 ---
