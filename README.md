@@ -1,4 +1,4 @@
-# Redrob Intelligent Candidate Discovery & Ranking
+# Redrob Intelligent Candidate Discovery & Ranking System
 
 An offline, explainable, adversarially robust candidate-ranking system built for the **Redrob Intelligent Candidate Discovery & Ranking Challenge**.
 
